@@ -1,0 +1,204 @@
+@media (min-width: 768px) and (max-width: 992px){
+	#home-page-banner{display: none;}
+	.desktop_nav{display: none;}
+	.tablet_nav{display: block;line-height: 55px;}
+	.tablet_nav i {
+    font-size: 22px;
+    color: #868b8e;
+    cursor: pointer;
+	}
+	.btn-custom-btn-one{font-size: 9px;}
+	.procucts-content h3{font-size: 20px;}
+	section#product-listing-section .slick-arrow{
+		top: 102%;
+		padding: 8px 12px;
+	}
+	section#product-listing-section .slick-next{
+		right: 44%;
+	}
+	section#product-listing-section .slick-prev {
+	    top: 102%;
+	    left: 44%;
+	}
+	.box-border-left:before{
+		width: 70.66px;
+	}
+	.box-border-right:before{
+		width: 70.66px;
+	}
+	.top-products{padding: 12px;}
+	.top-product-content h3{
+		font-size: 24px;
+		line-height: 26px;
+	}
+	.top-product-content h4{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.top-product-content a{
+		padding: 10px 18px;
+		font-size: 14px;
+    	line-height: 18px;
+	}
+	.categories-row{margin: 10px 0;}
+	.categories-image img {
+    width: 100%;
+  }
+	.categories-title p{
+		font-size: 18px;
+    line-height: 30px;
+	}
+	.footer_nav_bar {
+    margin-top: 40px;
+  }
+	/* collections page */
+	.collection.slider-content {
+    margin-left: 0;
+	}
+}
+
+@media (min-width: 421px) and (max-width: 767px){
+	#home-page-banner{display: none;}
+	.desktop_nav{display: none;}
+	.tablet_nav{display: block;line-height: 55px;}
+	.tablet_nav i {
+    font-size: 22px;
+    color: #868b8e;
+    cursor: pointer;
+	}
+	.shop-icons ul li{
+		    padding: 0px 0px;
+	}
+	section#product-listing-section .slick-arrow{
+		top: -10%;
+		padding: 8px 12px;
+	}
+	section#product-listing-section .slick-next{
+		right: 4%;
+	}
+	section#product-listing-section .slick-prev {
+	    top: -10%;
+	    left: 79%;
+	}
+	.section-label{
+		    padding: 10px 91px;
+	}
+	.categories-image img {
+    	width: 100%;
+	}
+	.categories-row{margin: 10px 0;}
+	.box-border-left:before{
+		width: 13.66px;
+    	left: 0%;
+	}
+	.box-border-right:before{
+		width: 12.66px;
+    	right: 0%;
+	}
+	.top-products{margin: 20px 0;}
+	.footer_nav_bar {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+	.footer_nav {
+    border-top: 1px dashed #868b8e;
+    padding: 20px 0;
+  }
+	.copy_right{margin-top: 0;}
+	.copy_right .copy_right_text{margin-bottom: 17px; text-align: center;}
+	.paymant_getway {
+    text-align: center;
+  }
+	.collection.slider-content {
+    margin-left: 0;
+	}
+}
+
+@media(min-width:320px) and (max-width:420px){
+	#home-page-banner{display: none;}
+	.desktop_nav{display: none;}
+	.tablet_nav{display: block;line-height: 55px;}
+	.shop-icons ul li{
+		    padding: 0px 0px;
+	}
+	.shop-icons ul li i {
+    font-size: 18px;
+	}
+	.tablet_nav i {
+    font-size: 22px;
+    color: #868b8e;
+    cursor: pointer;
+	}
+	.section-label{
+		padding: 10px 66px;
+	}
+	section#product-listing-section .slick-arrow{
+		padding: 6px 14px;
+	}
+	section#product-listing-section .slick-prev {
+    top: -10%;
+    left: 71%;
+  }
+	section#product-listing-section .slick-next {
+    right: 4%;
+		top: -10%;
+  }
+	.categories-image img {
+    width: 100%;
+  }
+	.categories-title p{
+		font-size: 16px;
+    line-height: 29px;
+	}
+	.categories-row {
+    margin: 10px 0;
+  }
+	.box-border-left:before{
+		width: 63.66px;
+	}
+	.box-border-left:before{
+		width: 63.66px;
+	}
+	.box-border-right:before{
+		width: 63.66px;
+	}
+	.top-products{
+		padding: 10px;
+		margin: 10px 0;
+	}
+	.top-product-content h3{
+		font-size: 23px;
+    line-height: 20px;
+	}
+	.top-product-content h4{
+		font-size: 16px;
+    line-height: 29px;
+	}
+	.top-product-content a{
+		font-size: 12px;
+    line-height: 12px;
+	}
+	#jalmit-top-products{margin: 20px 0;}
+	section#home-page-categories{
+		padding-bottom: 35px;
+	}
+	.btn-custom-btn-one{font-size: 7px;line-height: 12px;}
+	.section-label .title{font-size: 16px;line-height: 24px;}
+	.procucts-content h3{font-size: 18px;}
+	.footer_nav_bar {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+	.footer_nav {
+    border-top: 1px dashed #868b8e;
+    padding: 20px 0;
+  }
+	.copy_right{margin-top: 0;}
+	.copy_right .copy_right_text{margin-bottom: 17px; text-align: center;}
+	.paymant_getway {
+    text-align: center;
+  }
+	.collection.slider-content {
+    margin-left: 0;
+	}
+}

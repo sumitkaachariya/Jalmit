@@ -40,7 +40,38 @@
 						</nav>
 					</div>
 					<div class="tablet_nav">
-						<i class="fa-solid fa-bars"></i>
+						<i class="fa-solid fa-bars bar-menu-icon"></i>
+
+						<div class="mobile_nav_bar" id="mobile_side_bar_menu">
+
+						<div class="logo-section">
+							<div class="row no-gutters">
+							  	<div class="col-2"></div>
+							  	<div class="col-8">
+							  		<div class="menu_logo"><img src="images/logo/logo.png" /></div>
+							  	</div>
+							  	<div class="col-2">
+							  		<div class="close_section">
+										<i class="close_menu fa-solid fa-circle-xmark"></i>
+									</div>
+							  	</div>
+							  </div>
+						</div>
+
+						<div class="menu_nav_bar">
+							<nav class="home-nav">
+							<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="collections.html">Shop</a></li>
+									<li><a href="collection-products.html">Products</a></li>
+									<li><a href="#">About us</a></li>
+									<li><a href="#">Contact us</a></li>
+							</ul>
+						</nav>
+						</div>
+						  
+						</div>
+
 					</div>
 				</div>
 				<div class="col-lg-2 col-md-4 col-sm-6 col-6">
@@ -350,7 +381,7 @@
 <div class="slide_bar_cart" id="side_cart">
 	<div class="cart_title">
 		<div class="row no-gutters">
-			<div class="col-lg-10 col-10	">
+			<div class="col-lg-10 col-10">
 					<div>
 						<span><i class="fa-solid fa-cart-arrow-down"></i></span>
 						<span>My Bag</span>
@@ -699,6 +730,19 @@
       }
     }
   ]
+	});
+
+
+	
+	$(".bar-menu-icon").on("click", function(){
+	    $("#mobile_side_bar_menu").addClass("active");
+	    // $(".black-bg").addClass("active");
+	    $("body").addClass("overflow-hidden");
+	});
+	$(".black-bg, .close_menu").on("click", function(){
+	    $("#mobile_side_bar_menu").removeClass("active");
+	    $(".black-bg").removeClass("active");
+	    $("body").removeClass("overflow-hidden");
 	});
 	$(".cart-nav i").on("click", function(){
 	    $("#side_cart").addClass("active");

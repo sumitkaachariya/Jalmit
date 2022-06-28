@@ -73,6 +73,39 @@ nav.home-nav ul li a {
     color: #868b8e;
     cursor: pointer;
 }
+
+
+div#mobile_side_bar_menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -426px;
+    height: 100%;
+    max-height: 100%;
+    width: 400px;
+    z-index: 1020;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    transition: right .3s;
+    background: #ffffff;
+    overflow: auto;
+    -moz-transition: .35s cubic-bezier(.46,.01,.32,1);
+    -o-transition: .35s cubic-bezier(.46,.01,.32,1);
+    -ms-transition: .35s cubic-bezier(.46,.01,.32,1);
+    -webkit-transition: .35s cubic-bezier(.46,.01,.32,1);
+    transition: .35s cubic-bezier(.46,.01,.32,1);
+}
+#mobile_side_bar_menu.active {
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translate(-100%);
+    left: 375px;
+}
+.menu_logo img {
+    width: 100%;
+}
 .cart-nav{position: relative;}
 .cart-nav sup {
     color: #fff;
